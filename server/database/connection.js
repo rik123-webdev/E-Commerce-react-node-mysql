@@ -13,7 +13,7 @@ if (useLocalhost) {
         user: "root",
         host: "localhost",
         password: "",
-        database: "e_commerce",
+        database: "test",
     };
 } else {
     connectionParams = {
@@ -35,4 +35,3 @@ pool.connect((err) => {
 
 // Export the pool
 module.exports = pool;
-
